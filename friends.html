@@ -10,6 +10,7 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css">
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -43,7 +44,7 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends_friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img src="images/avatar00.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -57,30 +58,36 @@
           </div>
         </div>
       </header>
-      <div class="friends__plus-friend">
+      <div class="friends__plus">
         <h5 class="friends__title">Plus Friend</h5>
-        <div class="friends_friend friend">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar00.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.png" class=" friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                Plus Friend
+                Plus Friends
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__plus-friend">
+              <span>
+                37 >
               </span>
             </div>
           </div>
         </div>
       </div>
-      <ul class="friends_list">
-        <h5 class="friends__title">Friends 314</h5>
-        <li class="friends_friend friend friend--lg">
-          <div class="friend_column">
-            <img src="images/avatar00.jpg" class="g-avatar friend__avatar" />
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 5</h5>
+        <li class="friends__friend friend friend__list">
+          <div class="friend__column">
+            <img src="images/avatar01.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                Minjeong Kim
+                Hyoeun Yu
               </span>
               <span class="friend__status">
-                3F
               </span>
             </div>
           </div>
@@ -93,6 +100,71 @@
             </div>
           </div>
         </li>
+        <li class="friends__friend friend friend__list">
+          <div class="friend__column">
+            <img src="images/avatar02.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Jihui Seo
+              </span>
+              <span class="friend__status">
+                
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+          </div>
+        </li>
+        <li class="friends__friend friend friend__list">
+            <div class="friend__column">
+              <img src="images/avatar03.jpg" class="friend__avatar" />
+              <div class="friend__content">
+                <span class="friend__name">
+                  Jiyoon Im
+                </span>
+                <span class="friend__status">
+                  호다닥
+                </span>
+              </div>
+            </div>
+            <div class="friend__column">
+            </div>
+          </li>
+          <li class="friends__friend friend friend__list">
+              <div class="friend__column">
+                <img src="images/avatar04.jpg" class="friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Soyeon Kim
+                  </span>
+                  <span class="friend__status">
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <div class="friend__now-listening">
+                  <span>
+                    When you say Nothing At...
+                  </span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </li>
+          <li class="friends__friend friend friend__list">
+              <div class="friend__column">
+                <img src="images/avatar05.jpg" class="friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Yeonga Kim
+                  </span>
+                  <span class="friend__status">
+                    210424
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+              </div>
+            </li>
       </ul>
     </main>
     <nav class="nav">
@@ -104,6 +176,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">14</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
