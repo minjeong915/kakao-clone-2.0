@@ -31,20 +31,21 @@
   align-items: center;
 }
 
-.friend__content .friend__name {
+.friend__content .friend__name,
+.friend__content .chat__time {
   display: block;
   margin-bottom: 5px;
 }
 
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
-.friend .chat__timestamp,
+.friend .chat__time,
 .friend .friend__name i {
   opacity: 0.5;
 }
 
 .friend__content .friend__status,
-.friend .chat__timestamp {
+.friend .chat__time {
   font-size: 13px;
 }
 

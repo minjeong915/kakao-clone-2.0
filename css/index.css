@@ -1,3 +1,22 @@
 .chats__list .chat {
   padding: 13px 0px;
 }
+
+.friend__content .friend__content {
+  position: relative;
+}
+
+.friend__content .chat__badge {
+  position: absolute;
+  background-color: #dc5d46;
+  color: white;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 20px;
+}
