@@ -1,3 +1,19 @@
+.header-wrapper-friends {
+  position: fixed;
+  padding: 10px 20px 0px 20px;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+}
+
+.friends-body {
+  padding: 0px 20px;
+  padding-top: 110px;
+  min-height: 100vh;
+}
+
 .friends .friends__plus {
   padding: 20px 0px;
   border-top: 1px solid #f7f7f7;
@@ -7,13 +23,13 @@
 
 .friends__plus .friend__plus-friend {
   font-size: 14px;
-  opacity: 0.6;
+  opacity: #8b8b8b;
 }
 
 .friends__plus .friends__title,
 .friends__list .friends__title {
   font-size: 12px;
-  opacity: 0.7;
+  color: #8b8b8b;
   margin-bottom: 12px;
 }
 

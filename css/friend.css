@@ -41,7 +41,7 @@
 .friend__content .friend__bottom-text,
 .friend .chat__time,
 .friend .friend__name i {
-  opacity: 0.5;
+  color: #818181;
 }
 
 .friend__content .friend__status,
@@ -62,7 +62,7 @@
 }
 
 .friend__now-listening span {
-  opacity: 0.7;
+  color: #818181;
 }
 
 .friend__now-listening i {
